@@ -12,6 +12,7 @@
 		A9FCB52721A7224900BBF371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FCB52521A7224900BBF371 /* Main.storyboard */; };
 		A9FCB52921A7224C00BBF371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FCB52821A7224C00BBF371 /* Assets.xcassets */; };
 		A9FCB52C21A7224C00BBF371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FCB52A21A7224C00BBF371 /* LaunchScreen.storyboard */; };
+		A9FCB53521A7BA7500BBF371 /* PatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCB53421A7BA7500BBF371 /* PatternViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A9FCB52821A7224C00BBF371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9FCB52B21A7224C00BBF371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9FCB52D21A7224C00BBF371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FCB53421A7BA7500BBF371 /* PatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A9FCB52521A7224900BBF371 /* Main.storyboard */,
 				A9FCB53321A723D700BBF371 /* Supporting Files */,
 				A9FCB52321A7224900BBF371 /* PadViewController.swift */,
+				A9FCB53421A7BA7500BBF371 /* PatternViewController.swift */,
 				A9FCB52D21A7224C00BBF371 /* Info.plist */,
 			);
 			path = DrumMachineApp;
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FCB53521A7BA7500BBF371 /* PatternViewController.swift in Sources */,
 				A9FCB52421A7224900BBF371 /* PadViewController.swift in Sources */,
 				A9FCB52221A7224900BBF371 /* AppDelegate.swift in Sources */,
 			);
